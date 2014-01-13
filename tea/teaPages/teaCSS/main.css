@@ -1,0 +1,450 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.titletext {
+  /*float:left;*/
+  text-align:center;
+  margin-top: 20px;
+  /*padding: 10px;*/
+
+  /*color: #ffffff;*/
+  /*background-color:#16a085;*/
+/*  -moz-border-radius: 0px;
+  -webkit-border-radius: 20px 0px 0px 0px;
+  border-radius: 20px 0px 0px 0px; */
+}
+
+.teaMenu {
+    /*padding-left: 10px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    /*color: #ffffff;*/
+    /*background-color:#1abc9c;*/
+}
+
+/*-------------------------------------------------------------------*/
+#headline {
+  cursor:default;
+  margin-left:auto;
+  margin-right:auto;
+  width:360px;
+}
+.option-combo {
+  width: 360px;
+  overflow:hidden;
+  /*border-bottom: 1px solid black;*/
+}
+
+#footer {
+  margin-left:auto;
+  margin-right:auto;
+  width:360px;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+/*  color: #ffffff;
+  background-color:#16a085;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px 0px 20px 0px;
+  border-radius: 0px 0px 20px 0px; */
+}
+
+#content {
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  /*padding-left: 40px;*/
+  width:360px;
+  min-height: 400px;
+}
+
+.option-combo {
+  width: 360px;
+  overflow:hidden;
+  /*border-bottom: 1px solid black;*/
+}
+
+#options {
+  padding-bottom: 1.0em;
+  width:225px;
+}
+
+#options ul.menu-left {
+  margin-left: 1px;
+}
+#options ul.menu-right {
+  margin-left:0px;
+  float:right;
+  font-size:10px;
+}
+
+#options ul {
+  float:left;
+  margin: 0;
+  list-style: none;
+}
+
+#options ul ul {
+  margin-left: 1.5em;
+}
+
+#options li {
+  float: left;
+  margin-bottom: 0.2em;
+
+}
+
+#options li a {
+  display: block;
+  background-color: #fff;
+  margin-right: 15px;
+  color: #9b59b6;
+  font-size: 24px;
+  text-shadow: 0 1px hsla( 0, 0%, 100%, 0.5 );
+}
+
+#options li a:hover {
+  color:#f1c40f;
+  /*background-color: #EEE;*/
+}
+
+#options li:last-child a {
+  margin-right:0px;
+}
+
+#options li a.selected {
+  color: #1faa7b;
+  text-shadow: none;
+}
+
+
+.editBox{
+  border: 1px solid rgba(0,0,0,0.03);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  width: 100%;
+  margin-bottom:10px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.editBox .editLeftColumn {
+  width:172px;
+  float:left;
+  margin: 0 0 10px 20px;
+}
+.editBox .editRightColumn {
+  width:128px;
+  float:left;
+  margin-left: 20px;  
+  margin-right: 20px;
+}
+
+.editBox .editCenterColumn {
+  width: 100%;
+}
+
+.editBox .imageTextWrapper {
+    float:left;
+    width:100%;
+}
+.editBox .imageImage {
+    width: 172px;
+    height: 100%;
+    float: left;
+}
+.editBox img {
+  width:100%;
+}
+.editBox .imageTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.editBox .imageCategory {
+    font-size: 15px;
+}
+.editBox .imageDescWrapper {
+    /*width: 100%;*/
+    float:left;
+    width:100%; 
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.editBox .imageDesc, .catLong, .catLat, .catTitle {
+    color: #f1c40f;
+    margin-top: 5px;
+}
+
+.catLong {
+  margin-bottom: 20px;
+}
+
+.catLongDesc, .catLatDesc {
+    float:left;
+    padding-right:5px;
+}
+
+.editBox .imageDelete, .catDelete {
+    color:red;
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.addCat {
+    text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+#largePhoto.imageThumbEdit  {
+    width: 100%;
+}
+
+.sectionTitle {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.sectionTitleHeader {
+    font-size: 16px;
+}
+
+#thumbForm {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#thumbContent {
+    clear: both;
+    overflow: hidden;
+}
+
+#loginBox {
+  font-size:20px;
+  padding: 100px 0 100px 0;
+}
+#loginBox table {
+  margin: 0 auto 20px auto;
+}
+#loginMessage, #loginReturn {
+  width:100%;
+  text-align: center;
+  margin-bottom:10px;
+}
+#loginMessage {
+    color:red;
+}
+#loginReturn a {
+  background-color: #fff;
+}
+
+
+ /*Little larger screen*/
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  #headline {
+    cursor:default;
+
+    width:360px;
+    }
+  .option-combo {
+    width: 360px;
+  }
+  #content {
+
+    /*width:75%;*/
+    width:360px;
+    /*background:#f0f;*/
+  }
+  #footer {
+    width:360px;
+  }
+  .imageEditBox .editRightColumn {
+    width:128px;
+  }
+}
+
+ /*Pads and larger phones*/
+@media only screen and (min-width: 600px) {
+  #headline {
+    cursor:default;
+    width:540px;
+  }
+  .option-combo {
+    width: 540px;
+  }
+  #content {
+    /*width:75%;*/
+    width:540px;
+    /*background:#f0f;*/
+  }
+  #footer {
+    width:540px;
+  }
+  .editBox .editRightColumn {
+    width:308px;
+  }  
+}
+
+ /*Larger pads*/
+@media only screen and (min-width: 768px) {
+  #headline {
+    cursor:default;
+    width:720px;
+  }
+  .option-combo {
+    width: 720px;
+  }
+  #content {
+    /*width:75%;*/
+    width:720px;
+    /*background:#f0f;*/
+  }
+  #footer {
+    width:720px;
+  }
+  .editBox .editRightColumn {
+    width:488px;
+  }  
+}
+
+ /*Horizontal pads and laptops*/
+@media only screen and (min-width: 992px) {
+  #headline {
+    cursor:default;
+    width:900px;
+  }
+  .option-combo {
+    width: 900px;
+  }
+  #content {
+    /*width:75%;*/
+    width:900px;
+    /*background:#f0f;*/
+  }
+  #footer {
+    width:900px;
+  }
+  .editBox .editRightColumn {
+    width:668px;
+  }  
+}
+
+ /*Really large screens*/
+@media only screen and (min-width: 1382px) {
+  #headline {
+    cursor:default;
+    width:900px;
+  }
+  .option-combo {
+    width: 900px;
+  }
+  #content {
+    /*width:75%;*/
+    width:900px;
+    /*background:#f0f;*/
+  }
+  #footer {
+    width:900px;
+  }
+  .editBox .editRightColumn {
+    width:668px;
+  }  
+}
+
+/*2X size (iPhone 4 etc)*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  #headline {
+    cursor:default;
+    width:540px;
+  }
+  .option-combo {
+    width: 540px;
+  }
+  #content {
+    /*width:75%;*/
+    width:540px;
+    /*background:#f0f;*/
+  }
+  #footer {
+    width:540px;
+  }
+  .editBox .editRightColumn {
+    width:308px;
+  }  
+}
+
+body {
+  /*padding: 20px;*/
+  font-family: 'neouthin';
+  font-size: 13px;
+  /*line-height: 1.7em;*/
+  background: #FFF;
+  color: #494849;
+}
+
+
+h1, h2, #super-list, .element, .tagline, #index-list, 
+.super-list .link {
+    font-family: 'neouthin';
+}
+
+/*h1, h2, h3 { font-weight: bold; }*/
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1em;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.1em;
+}
+
+ul, ol {
+  margin-left: 1.5em;
+}
+
+a,
+a code {
+  color:#9b59b6;
+  text-decoration: none;
+}
+
+a:hover,
+a:hover code { 
+  color:#f1c40f;
+}
+
+a:active,
+a:active code {
+  color: #1FB;
+}
+
+
