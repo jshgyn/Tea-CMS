@@ -4,4 +4,4 @@ Tea is a PHP CMS that was originally intended to be a neat way of managining ima
 
 ## Why reinvent the wheel?
 
-I wanted to understand how the wheel worked.
+I wanted to understand how the wheel worked!
