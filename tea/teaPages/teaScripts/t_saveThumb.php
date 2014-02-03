@@ -88,7 +88,7 @@ else if ($wFeature==0 && $hFeature== 1)
 
 mysqli_close($con);
 
-header( 'Location: ../manage.php');
+header( 'Location: ../photo_manage.php');
 exit();
 
 ?>

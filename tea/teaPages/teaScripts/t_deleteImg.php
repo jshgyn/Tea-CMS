@@ -19,6 +19,6 @@ mysqli_query($con,"DELETE FROM photos WHERE id='$toDelete'");
 
 mysqli_close($con);
 
-header( 'Location: ../manage.php');
+header( 'Location: ../photo_manage.php');
 exit();
 ?>

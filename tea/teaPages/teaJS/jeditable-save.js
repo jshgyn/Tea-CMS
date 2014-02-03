@@ -29,7 +29,7 @@ $(document).ready(function() {
         cancel : 'Cancel'
      });
 
-     $('.catTitle').editable('teaScripts/t_saveCatTitle.php', {
+     $('.photoCatTitle').editable('teaScripts/t_saveCatTitle.php', {
         indicator : 'Saving...',
         type : 'textarea',
         event     : 'dblclick',
@@ -39,4 +39,23 @@ $(document).ready(function() {
         cancel : 'Cancel'
      });
 
+     $('.textCatTitle').editable('teaScripts/t_saveTextCatTitle.php', {
+        indicator : 'Saving...',
+        type : 'textarea',
+        event     : 'dblclick',
+        placeholder : 'No Title Set.',
+        submitdata : { _method: "put" },
+        submit : 'OK',
+        cancel : 'Cancel'
+     });
+
+     $('.textSnippet').editable('teaScripts/t_saveText.php', {
+        indicator : 'Saving...',
+        type : 'textarea',
+        event     : 'dblclick',
+        placeholder : 'No Title Set.',
+        submitdata : { _method: "put" },
+        submit : 'OK',
+        cancel : 'Cancel'
+     });     
  });

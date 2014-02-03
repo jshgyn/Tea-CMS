@@ -90,6 +90,7 @@ footer, header, hgroup, menu, nav, section {
 #options {
   padding-bottom: 1.0em;
   width:225px;
+
 }
 
 #options ul.menu-left {
@@ -114,17 +115,16 @@ footer, header, hgroup, menu, nav, section {
 #options li {
   float: left;
   margin-bottom: 0.2em;
-
-}
-
-#options li a {
   display: block;
   background-color: #fff;
   margin-right: 15px;
   color: #9b59b6;
   font-size: 24px;
   text-shadow: 0 1px hsla( 0, 0%, 100%, 0.5 );
+
 }
+
+
 
 #options li a:hover {
   color:#f1c40f;
@@ -194,9 +194,13 @@ footer, header, hgroup, menu, nav, section {
     margin-top: 10px;
     padding-right: 20px;
 }
-.editBox .imageDesc, .catLong, .catLat, .catTitle {
+.editBox .imageDesc, .catLong, .catLat, .photoCatTitle, .textCatTitle, .textSnippet {
     color: #f1c40f;
     margin-top: 5px;
+}
+
+.textSnippet {
+  font-size: 18px;
 }
 
 .catLong {
